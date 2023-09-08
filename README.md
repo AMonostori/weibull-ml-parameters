@@ -13,8 +13,7 @@ if $x \geq 0$ , otherwise 0.
 The $\lambda$ is the scale parameter, k is the shape parameter.
 
 The Maximum Likelihood estimation of the parameters:
-$$ \lambda_{ML} = \frac{\sum^n_{i=1}x^{k}_{i} log x_{i}}{\sum^n_{i=1}x^{k}_{i}} - \frac{1}{k} - \frac{1}{n}\sum^{n}_{i=1}log x_{i} = 0 $$
 
-$$ \lambda_{ML} = \frac{\sum_{i=1}^n x_i^k  log x_{i}}{\sum_{i=1}^n x_i^k} - \frac{1}{k} - \frac{1}{n} \sum_{i=1}^n log x_{i} = 0 $$
+$$ \lambda_{ML} = \frac{ \sum_{i=1}^n x_i^k  log x_{i}}{ \sum_{i=1}^n  x_i^k} - \frac{1}{k} - \frac{1}{n} \sum_{i=1}^n log x_{i} = 0 $$
 
 The task is to use a null value searching algorithm to determine first k, then by knowing k, finding $\lambda$.
